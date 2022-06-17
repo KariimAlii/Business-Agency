@@ -5,12 +5,4 @@ Frontend project for a business agency
 
 [View Website](https://favbusinessagency.netlify.app/)
 
-<a style="
-          width : 100px;
-          height:40px;
-          text-decoration:none;
-          background-color:blue;
-          font-size:2rem;
-          font-weight:600;
-          " 
-   href="https://favbusinessagency.netlify.app/" >View Website</a>
+
