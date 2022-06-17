@@ -1,0 +1,150 @@
+@media (max-width:1500px) {
+    html {
+        font-size: 50%;
+    }
+}
+@media (max-width:1300px) {
+    .section-heading-line {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width:1200px) {
+    .banner-heading span {
+        font-size: 8rem;
+    }
+    .banner-paragraph {
+        width:50%;
+    }
+    .section-1 , .section-2 , .section-3 , .section-4  {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .section-2-right {
+        align-items: center;
+    }
+    .section-heading {
+        width: 100%;
+        text-align: center;
+        margin-top:10rem;
+    }
+    .section-4-right {
+        padding: 10rem 0;
+    }
+    footer {
+        padding: 5rem ;
+    }
+
+}
+@media (max-width:1000px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:0 ;
+        height:10vh;
+    }
+    .video-wrapper {
+        width:80rem;
+        height:40rem;
+    }
+    .controllers button {
+        left:1rem;
+        bottom: 1rem;
+    }
+    .controllers button i {
+        font-size: 2.5rem;
+    }
+    .info {
+        width: 80rem;
+    }
+}
+@media (max-width:810px) {
+    .menu , .navbar , .section-1 , .section-2 , .section-3 , .section-4 {
+        overflow: hidden;
+    }
+    .banner-heading {
+        overflow: hidden;
+    }
+    
+    .banner-paragraph {
+        font-size: 3rem;
+    }
+    .section-2 {
+        padding: 0;
+    }
+    .banner-heading span {
+        font-size: 4rem;
+    }
+}
+@media (max-width:750px) {
+    
+    .banner-paragraph {
+        width:80%;
+    }
+    .video-wrapper {
+        width:60rem;
+        height:30rem;
+    }
+    .controllers button {
+        left:1rem;
+        bottom: 0.2rem;
+    }
+    .controllers button i {
+        font-size: 2rem;
+    }
+    .info {
+        width: 60rem;
+    }
+    .section-heading {
+        font-size: 8rem;
+    }
+    .phone , .address , .email {
+        margin:0 5rem;
+    }
+    .section-4-right {
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:650px) {
+    .form {
+        width:50rem;
+    }
+}
+@media (max-width:550px) {
+    html {
+        font-size: 30%;
+    }
+    .video-wrapper {
+        width:50rem;
+        height:25rem;
+        margin-bottom: 5rem;
+    }
+    .controllers button {
+        left:1rem;
+        bottom: -0.5rem;
+    }
+    .controllers button i {
+        font-size: 1.7rem;
+    }
+    .info {
+        width: 50rem;
+    }
+    .info p {
+        font-size: 1rem;
+    }
+    .fa-quote-left , .fa-quote-right {
+        font-size: 2.5rem;
+    }
+     .section-2 , .section-3 , .section-4 {
+        height: fit-content;
+    }
+    .section-1 {
+        justify-content: center;
+    }
+    .banner-heading {
+        margin:10rem 0 2rem 0 ;
+    }
+}
